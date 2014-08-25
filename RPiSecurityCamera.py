@@ -11,6 +11,7 @@ GPIO.setup(8, GPIO.IN) # HIGH || LOW type switch
 GPIO.setwarnings(False)
 statement=False
 from twython import Twython
+#fill in personal oAuth Twitter app crendentials below
 APP_KEY = ''
 APP_SECRET = ''
 OAUTH_TOKEN =''
